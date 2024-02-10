@@ -191,5 +191,5 @@ Synchronizing state of php8.1-fpm.service with SysV service script with /lib/sys
 Executing: /lib/systemd/systemd-sysv-install enable php8.1-fpm
 Created symlink /etc/systemd/system/multi-user.target.wants/zabbix-server.service → /lib/systemd/system/zabbix-server.service.
 ```
-### Теперь можно через веб-браузер проверить конфигурирация и производить настройку.
+### Теперь можно через веб-браузер проверить конфигурирацию и настроить мониторинг нужных параметров. Как правило, предварительно требуется "раскидать" агентов по узлам, с которых будут собираться параметры.
 ### Скрин с графиком прилагается.
